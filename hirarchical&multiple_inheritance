@@ -1,0 +1,41 @@
+Hirarchical inheritance
+# class parentclass:
+#     a=50
+#     b=100
+#     def pdisplay(self):
+#         print('parentclass')
+# class child1class(parentclass):
+#     c=150
+#     d=200
+#     def c1display(self):
+#         print('child1class')
+# class child2class(parentclass):
+#     e=250
+#     f=300
+#     def c2display(self):
+#         print('class2class')
+# c1obj=child1class()
+# print(c1obj.b,c1obj.d)
+# c2obj=child2class()
+# print(c2obj.a,c2obj.f)
+
+Multiple Inheritance
+
+
+# class parent1:
+#     a=50
+#     b=100
+#     def p1display():
+#         print('parent1class')
+# class parent2:
+#     c=150
+#     d=200
+#     def p2display():
+#         print('parent2class')
+# class child(parent1,parent2):
+#     e=500
+#     f=1000
+#     def cdisplay():
+#         print('childclass')
+# cobj=child()
+# print(cobj.a,cobj.c,cobj.f)  
